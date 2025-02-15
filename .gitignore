@@ -1,0 +1,40 @@
+# Python-related ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# FastAPI and environment files
+instance/
+.env
+*.log
+
+# Node.js dependencies (Frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React build files
+frontend/build/
+frontend/dist/
+
+# Ignore lock files (optional)
+frontend/package-lock.json
+frontend/yarn.lock
+
+# IDE and Editor files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Test and coverage files
+coverage/
+*.cover
+*.pytest_cache/
+
+# Ignore generated files
+*.bak
+*.tmp
